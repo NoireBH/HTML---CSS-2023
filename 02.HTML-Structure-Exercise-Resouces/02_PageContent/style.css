@@ -1,5 +1,5 @@
 header h1 {
-    text-size-adjust: 28px;
+    font-size: 28px;
 }
 
 header p {
@@ -7,7 +7,7 @@ header p {
 }
 
 p {
-    text-size-adjust: 24px;
+    font-size: 24px;
 }
 
 body {
