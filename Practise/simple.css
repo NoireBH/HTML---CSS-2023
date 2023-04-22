@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Righteous&display=swap');
+img {
+    width: 1600px;
+    height: 400px;
+    border: 5px solid rgb(49, 3, 49);
+    vertical-align:bottom
+}
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    border: 5px solid rgb(49, 3, 49);
+    height: 40px;
+}
+
+nav a {
+    display: inline-block;
+    border-right: solid 2px rgb(49, 3, 49);;
+    border-left: solid 2px rgb(49, 3, 49);;
+    width: 378.4px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: aquamarine;
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Fugaz One', cursive;
+    
+}
