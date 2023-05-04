@@ -1,0 +1,29 @@
+html {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+body > header {
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+}
+
+nav { 
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-self: center;
+    gap: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+
+}
