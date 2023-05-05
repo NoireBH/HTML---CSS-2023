@@ -1,0 +1,89 @@
+div.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 3em;
+    
+}
+
+blockquote {
+    font-family: Georgia, serif;
+}
+
+div.page h1 , div.page h2 {
+    font-family: Georgia, serif;
+}
+
+aside a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+.page > header {
+    flex-basis: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 0.15em;
+    border-bottom-color: gray;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+    margin: 8px 10px;
+}
+
+.page > main {
+    flex-basis: 65%;
+}
+
+.page > aside {
+    flex-basis: 25%;
+}
+
+img {
+    border: 2px solid black;
+    padding: 5px;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+    background-color: rgb(255, 255, 255);
+}
+
+.section-two {
+    margin-top: 50px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote {
+    box-sizing: border-box;
+    border-left-style: solid;
+    border-left-width: 0.20em;
+    border-left-color: slategray;
+    padding-left: 1em;
+    float: right;
+    width: 50%;
+    font-style: italic;
+
+}
+
+ul {
+    list-style-type: square;
+}
+
+aside {
+    margin-left: 5em;
+}
