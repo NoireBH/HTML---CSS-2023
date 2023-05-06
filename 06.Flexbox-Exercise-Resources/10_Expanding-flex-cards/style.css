@@ -1,3 +1,41 @@
 body {
     background-color: rgb(238, 238, 238);
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
 }
+
+.container {
+    display: flex;
+    height: 100vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+}
+
+img {
+    width:  8em;
+    height: 20em;
+    object-fit: cover;
+    margin: 5px;
+    border-radius: 5%;
+    
+}
+
+.big-img {
+    width: 30em;
+    border: 1px solid black;
+    padding: 0px 12px;
+    background-color: black;
+}
+
+
+
