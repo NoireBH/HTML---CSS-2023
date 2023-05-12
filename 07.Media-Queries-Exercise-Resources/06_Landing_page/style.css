@@ -35,14 +35,15 @@ a {
 
 .need-a-website {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .need-a-website-info {
-    width: 60%;
+    padding-right: 1em;
     padding-left: 1.5em;
     line-height: 1.2em;
     font-size: 14px;
+    width: 500px;
 }
 
 .need-a-website i {
@@ -78,6 +79,7 @@ a {
     justify-content: center;
     font-weight: bold;
     padding-bottom: 15px;
+    font-size: 24px;
     
 }
 
@@ -88,7 +90,8 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 3em;
-    justify-content: space-around;
+    justify-content: center;
+    
     
 }
 
@@ -96,6 +99,9 @@ a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
 }
 
 .members li {
@@ -114,6 +120,7 @@ a {
     padding-top: 20px;
     padding-bottom: 5px;
     font-weight: bold;
+    width: 110px;
 }
 
 .members p {
@@ -157,7 +164,108 @@ a {
     text-align: center;
 }
 
-.testimonial-members p {
+.testimonial-members li {
+    display: flex;
+
+}
+
+.testimonial-members .h-padding-member {
     order: 1;
 }
 
+.testimonial-members .job-title {
+    order: 2;
+}
+
+footer {
+    border-top: 2px solid black;
+    margin-top: 100px;
+    padding: 30px;
+    line-height: 25px;
+}
+
+footer h1,h2 {
+    font-weight: bold;
+}
+
+footer h1 {
+    font-size: 20px;
+}
+
+footer p {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 100px;
+}
+
+.nav-links a {
+    color: black;
+}
+
+.contacts {
+    margin-top: 10px;
+    position: relative;
+}
+
+.contacts ul li {
+    padding-left: 20px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:  30px;
+    left: -3px;
+    gap: 8.2px;
+}
+
+@media (min-width: 960px) {
+
+.mobile-aside{
+ display: none;
+}
+
+.desktop-aside {
+    display: flex;
+    
+}
+
+.desktop-aside ul {
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+}
+
+.desktop-aside a {
+    color: black;
+}
+
+}
+
+.need-a-website-info {
+    line-height: 1.2em;
+    font-size: 14px;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    gap: 400px;
+    justify-content: center;
+}
+
+.footer-info {
+
+    position: absolute;
+    top: 70px;
+    width: 200px;
+    left: 215px;
+}
