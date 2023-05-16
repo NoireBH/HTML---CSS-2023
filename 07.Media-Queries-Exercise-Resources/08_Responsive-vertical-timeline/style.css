@@ -1,0 +1,24 @@
+.timeline {
+    border-width: 0.3rem;
+    border-color: - rgb(153, 153, 153);
+    border-style: solid;
+    margin: 15px;
+    padding: 1rem;
+}
+
+.header-p {
+    border: 1px solid black;
+    width: fit-content;
+    padding: 6px 20px;
+
+}
+
+li {
+    list-style: square;
+}
+
+h3 {
+    font-style: italic;
+}
+
+
