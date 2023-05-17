@@ -13,8 +13,7 @@ body {
   display: grid;
   grid-template-rows: repeat(6 1fr);
   grid-template-columns: repeat(4 1fr);
-  grid-template-rows: 
-  "header header header header header header"
+  grid-template: "header header header header header header"
   "nav nav nav nav nav nav"
   "aside aside aside main main main"
   "footer footer footer footer footer footer";
@@ -68,8 +67,14 @@ footer {
  grid-area: footer;
 }
 
-/* TODO Responsive layout - when the screen is less than 700px wide, 
-make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 700px){
 
-/* TODO Responsive layout - If the screen is smaller than 700px, 
-display the navigation bar links as block and center the text */
+  body {
+    display: block;
+  }
+
+  nav a {
+    display: block;
+    text-align: center;
+  }
+}
