@@ -1,0 +1,63 @@
+body {
+    font-family: 'Inter', normal;
+    background-image: url("image/background.jpg");
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+  min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+  
+  ul li:before {
+    content: '✓';
+    padding-right: 6px;
+  }
+
+  .container div {
+    border: 1px solid lightgray;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 24px;
+    position: relative;
+  }
+
+  button {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10%;
+    position: absolute;
+    bottom: 30px;
+  }
+
+  .billed {
+    color: gray;
+  }
+
+.basic , .premium {
+    padding-bottom: 30px;
+}
+
+.container div {
+    height: 500px;
+    line-height: 40px;
+}
+
+.standard {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+strong {
+    font-size: 50px;
+}
+
