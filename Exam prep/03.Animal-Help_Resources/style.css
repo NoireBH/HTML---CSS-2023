@@ -1,0 +1,358 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  line-height: 1.15;
+  font-weight: 700;
+    
+}
+
+
+.header-nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+
+.header-nav nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 135px;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.make-a-difference {
+
+    display: flex;
+    width: 98%;
+    justify-content: space-around;
+    background-color: #85dcff;
+    font-size: 24px;
+    height: 600px;
+}
+
+.make-a-difference p {
+    font-size: 16px;
+}
+
+.difference-text {
+    width: 45%;
+}
+
+.make-a-difference img {
+    width: 30%;
+}
+
+.donate {
+    background-color: white;
+    padding: 20px 80px;
+    border: 1px solid gray;
+    border-radius: 8px;
+
+}
+
+.join-newsletter {
+    background-color: black;
+    color: white;
+    padding: 10px 80px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+
+.paw-img {
+    margin-right: 2px;
+}
+
+.header-nav p , a {
+    font-weight: bold;
+}
+
+.make-a-difference-buttons {
+    display: flex;
+    gap: 32px;
+}
+
+.difference-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 600px;
+    justify-content: center;
+    padding-left: 200px;
+    
+}
+
+.make-a-difference-buttons button {
+    
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+.were-there header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.were-there header > p {
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.were-there ul {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.were-there li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    
+}
+
+.were-there-ul i {
+    font-size: 120px;
+}
+
+.were-there {
+    width: 100%;
+}
+
+.were-there li p {
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.we-work-to {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #85dcff;
+}
+
+.we-work-to  {
+    display: flex;
+    justify-content: center;
+    width: 98%;
+}
+
+.work-to-list {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+
+
+.about1, .about2{
+    width: 35%;
+    display: flex;
+    padding: var(--dl-space-space-fourunits);
+    align-self: stretch;
+    align-items: flex-start;
+    border-radius: var(--dl-radius-radius-radius4);
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--dl-color-primary-700);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.about1 li, .about2 li {
+    
+    width: 400px;
+    position: relative;
+}
+
+.about1 li i, .about2 li i {
+    position: absolute;
+    left: -28px;
+    top: -4px;
+}
+
+.about2 li {
+    margin-bottom: 20px;
+}
+
+.work-to-list {
+    margin-bottom: 50px;
+}
+
+.we-work-to button {
+    border: 1px solid black;
+    padding: 16px 80px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    margin-bottom: 50px;
+}
+
+.animals-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.animals-heading h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.animals-heading p {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.animal-img {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.animal-img img {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+    flex-wrap: wrap;
+}
+
+
+.how-we-work  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.ending-practises h2 , .caring-for-animals h2 , .building-anima-protection h2 {
+    background-color: #85dcff;
+    padding: 30px;
+    margin: 0;
+}
+
+.ending-practises p , .caring-for-animals p , .building-anima-protection p {
+    padding-left: 20px;
+    padding-bottom: 50px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.ending-practises  , .caring-for-animals  , .building-anima-protection{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    
+}
+
+.news {
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+}
+
+.news img {
+    width: 50%;
+    
+}
+
+.email {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading-container-email {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 250px;
+}
+
+.heading-container-email h1 {
+    font-size: 36px;
+}
+
+.heading-container-email p {
+    font-weight: 400;
+    width: 600px;
+}
+
+.home-button1 {
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: black;
+    padding: 20px 100px;
+    width: 30%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+.email-input {
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 170px;
+    width: 20%;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    display: flex;
+    text-align: left;
+    border: 2px solid lightgray;
+}
+
+.home-footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.home-social-links {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    padding-left: 150px;
+    gap: 18px;
+}
+
+.home-copyright-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Anchor {
+    padding-right: 150px;
+}
