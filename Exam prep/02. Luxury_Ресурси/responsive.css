@@ -1,0 +1,51 @@
+@media(max-width: 600px){
+
+    header .div-header {
+        display: none;
+    }
+
+    .logo-center {
+        margin-top: 12px;
+    }
+
+    header h3{
+        font-size: 10px;
+    }
+
+    header h1 {
+        font-size: 16px;
+    }
+
+   header .button-header {
+        margin-top: 70px;
+        margin-bottom: 20px;
+        padding: 5px 10px;
+    }
+
+    header .options {
+        flex-direction: column;
+    }
+
+    header .options article {
+        width: 100%;
+        text-align: center;
+    }
+
+    header .options article h4 {
+        font-size: 12px;
+    }
+
+
+    header .options a {
+        display: none;
+    }
+
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery article a {
+        display: none;
+    }
+}
