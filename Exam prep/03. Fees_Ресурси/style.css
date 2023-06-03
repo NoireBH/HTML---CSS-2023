@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+  
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-container img {
+    max-width: 150px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 12px;
+    font-weight: 700;
+    color: #54546D
+}
+
+.taxes article {
+    flex-basis: 30%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    max-height: 300px;
+    color: #54546f;
+}
+
+main .img-wrapper{
+    width: 100%;
+    height: 300px;
+    background-color: #54546D;
+    position: relative;
+}
+
+main .img-wrapper img{
+    position: absolute;
+    top: 50px;
+    left: -70px;
+}
+
+main > h2{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: -280px;
+    margin: 30px 0;
+}
+
+.taxes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0 auto -220px auto;
+    position: relative;
+    top: -280px;
+}
+
+.taxes article h2 {
+    margin-bottom: 10px;
+    margin-top: 28px;
+}
+
+
+.taxes article > p {
+    margin-bottom: 30px;
+}
+
+.taxes article > button {
+    margin-bottom: 30px;
+    background-color: #9A5DC6;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 14px 15px;
+    width: 40%;
+    align-self: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+.basic-price {
+    background-color: #3bc971;
+    height: 110px;
+    border-radius: 0 0 10px 10px;
+    color: white;
+}
+
+.program-tax >h3 {
+    padding-top: 30px;
+}
+
+.program-tax >p {
+    margin-top: 10px;
+}
+
+.fundamentals-price , .professional-price {
+    display: flex;
+    justify-content: space-around;
+}
+
+.fundamentals-price {
+    background-image: linear-gradient(to right, #4d6e8c, #52799c, #5783ac, #5c8ebc, #6199cd);
+    color: white;
+    height: 115px;
+    border-radius: 0 0 10px 10px;
+}
+
+.fundamentals-price .regular-price , .fundamentals-price .online-price {
+    padding: 35px 0;
+}
+
+.professional-price {
+    background-image: linear-gradient(to right, #4f3caa, #5e4bb7, #6d5bc5, #7b6bd2, #8a7be0);
+    color: white;
+    height: 112px;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+.professional-price .regular-price , .professional-price .online-price {
+    padding: 35px 0;
+}
+
+ .divider {
+   height: 6rem;
+   width: 2px;
+   background-color: white;
+   margin: 12px 0
+ }
+
+ #no-margin-f,  #no-margin2 {
+    margin-bottom: 13px;
+ }
+
+ .advantage-disadvantage-header{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ .advantage-disadvantage ul li {
+    padding-bottom: 16px;
+    
+ }
+
+ .advantage-disadvantage ul li:nth-child(1){
+    margin-top: 50px;
+    border-radius: 8px 8px 0 0;
+ }
+
+ .advantage-disadvantage ul li:nth-child(6){
+    border-radius: 0 0 8px 8px;
+ }
+
+ .advantage-disadvantage ul li:nth-child(odd){
+    background-color: #e6e6e6;
+ }
+
+ .advantage-disadvantage ul li {
+    text-align: start;
+    padding-left: 20px;
+    padding: 12px;
+    position: relative;
+ }
+
+ .advantage-disadvantage ul li span img:nth-child(1) {
+    position: absolute;
+    right: 250px;
+ }
+
+ .advantage-disadvantage ul li span img:nth-child(2){
+    position: absolute;
+    right: 100px;
+ }
+
+ .financing {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    
+ }
+
+ .financing-info p:nth-child(2){
+    margin-bottom: 12px;
+ }
+
+ .financing-info {
+    width: 1200px;
+ }
