@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*:after, *:before {
+    box-sizing: inherit;
+}
+
+html {
+
+    font-family: 'PT Sans', sans-serif;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    background: #D01919;
+    color: white;
+}
+
+.contact-icons {
+    padding-right: 1rem;
+    display: flex;
+    gap: 10px;
+}
+
+.header {
+    background: url('image/fitness-main.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    height: 600px;
+}
+
+.nav ul {
+    display: flex;
+    gap: 103px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header nav {
+    width: 50%;
+    float: right;
+    padding: 1.5rem;
+}
+
+.header h1 {
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+    font-size: 36pt;
+    letter-spacing: 10px;
+}
+
+.header header {
+    color: white;
+}
+
+.header p {
+    width: 30%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+button {
+    background: #D01919;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-bottom: 8rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.welcome > h2 {
+    margin-top: 1em;
+    text-align: center;
+    font-size: 32px;
+}
+
+.welcome {
+    width: 100%;
+}
+
+.welcome-info{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    margin: 2rem;
+    
+}
+
+.qualified-coaches, .approach, .equipment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+
+.welcome-info i {
+    font-size: 50px;
+}
+
+.welcome-info h4 {
+    color: red;
+    padding: 1em 0;
+}
+
+.vertical-line {
+    margin-top: 2em;
+    background-color: red;
+    width: 40px;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.coaches-header h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 1em;
+}
+
+.coaches {
+    background-color: lightgray;
+}
+
+.coaches-main {   
+    padding-top: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.coaches-main div {
+    width: 350px;
+    margin-bottom: 4em;
+    text-align: center;
+}
+
+.coaches-main div h5 {
+    color: red;
+}
+
+.coaches-main img {
+    object-fit: cover;
+    width: 350px;
+    max-height: 100%;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+footer {
+    background-color: red;
+    text-align: center;
+    padding: .3em;
+}
