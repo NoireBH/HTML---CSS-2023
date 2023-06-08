@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*:after, *:before {
+    box-sizing: inherit;
+}
+
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.site-container header {
+    background-image: url(image/image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    padding: 30px;
+}
+
+.site-container  {
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.transparent, .header-info {
+    padding: 20px 20px;
+    width: 250px;
+    height: 150px;
+    
+}
+
+.transparent, .header-info {
+    box-shadow: 0 0 10px 1px #333333;
+    height: 180px;
+    width: 210px;
+    text-align: start;
+}
+
+.transparent .container {
+    width: 60%;
+}
+
+.transparent .container h2 {
+    margin-bottom: 10px;
+    font-size: 36px;
+}
+
+hr {
+    
+    border-bottom: 2px solid white;
+    margin-bottom: 6px;
+}
+
+.header-info {
+    float: right;
+    
+    width: 330px;
+}
+
+.header-info {
+    background-color: #c3beba;
+    color: white;
+    padding-top: 30px;
+    height: 230px;
+    text-align: end;
+}
+
+.header-info .icon-container {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.our-services {
+    padding-right: 50px;
+    padding-bottom: 5rem;
+}
+
+.our-services li {
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.our-services h1 {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.our-services i {
+    padding-right: .5rem;
+}
+
+.contact h1 {
+    border-bottom: 2px solid #808080;
+}
+
+.our-services , .contact {
+    padding-left: 50px;
+}
+
+main span {
+    font-weight: bolder;
+    
+}
+
+main h1 {
+    color: #333333;
+    font-size: 32px;
+}
+
+.contact {
+    padding-bottom: 2rem;
+}
+
+.contact-info {
+    margin: 1.5rem 0; 
+}
+
+.contact-info ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    width: 600px;
+}
+
+.contact button {
+    background-color: #67784d;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 4px;
+    border: none;
+    margin-left: 6px;
+    
+}
+
+input {
+    padding: 16px 60px 16px 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #bab1ad;
+}
+
+input::placeholder {
+    color: white;
+    text-align: start;
+}
+
+main {
+    display: flex;
+    background-color: #f2f0f3;;
+}
+
+.right-container {
+    background-color: #bab1ad;
+    width: 20%;
+    
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    padding-left: 1rem;
+}
+
+.right-section h1 {
+    font-size: 70px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight:lighter;
+}
+
+.right-section {
+    padding-top: 2rem;
+}
+
+.left-container {
+    width: 80%;
+}
+
+.email-container {
+    margin-top: 2rem;
+}
