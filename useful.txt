@@ -25,3 +25,10 @@ VERTICAL LINE
     margin-right: auto;
 }
 
+MAKE IMAGE FIT CONTAINER
+
+.image-container-introduction2 img{
+width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
