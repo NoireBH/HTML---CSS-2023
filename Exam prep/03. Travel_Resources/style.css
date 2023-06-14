@@ -1,0 +1,205 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    color: #4e5774;
+    margin-bottom: 1rem;
+    
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5rem;
+}
+
+.nav ul li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .8rem;
+    text-decoration: none;
+    color: #4e5774
+}
+
+.nav ul li a i {
+    font-size: 24px;
+}
+
+.nav ul li a:hover {
+    color: white;
+}
+
+.nav ul li:hover {
+    background-color: #fd9f09;
+    
+}
+
+.budapest-main {
+    margin: 0;
+    background: url("image/slider.jpg");
+    background-position: center;
+    object-fit: contain;
+    height: 75vh;
+    position: relative;
+}
+
+.budapest-logo {
+    background-color: #c29c31;
+    position: absolute;
+    left: 13rem;
+    top: -7.5rem;
+    padding: 30px;
+}
+
+.shuttle {
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    width: 40%;
+    
+}
+
+.shuttle h1 {
+    margin-top: 2.5rem;
+    font-size: 24px;
+}
+
+.shuttle p {
+    width: 95%;
+}
+
+.shuttle * {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    font-size: 18px;
+}
+
+.shuttle button {
+    background-color: transparent;
+    color: #fd9f09;
+    border: 3px solid white;
+    padding: 10px;
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+.shuttle button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+main{
+    background-color: #c29c31;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+main h1 {
+    margin-bottom: 1rem;
+}
+
+main ul li {
+    margin-bottom: .8rem;
+}
+
+main ul li i {
+    margin-right: 6px;
+}
+
+main button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 16px;
+    border: 3px solid white;
+    font-weight: 900;
+}
+
+.budapest-perks header {
+    text-align: center;
+}
+
+.budapest-perks header h2 {
+    margin-bottom: 2rem;
+}
+
+.budapest-perks {
+    color: #4f5677;
+    margin-bottom: 2rem;
+}
+
+.circle-cards {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.circle-cards div img {
+    border-radius: 50%;
+    border: 2px solid  #4f5677;
+    padding: 2px;
+    margin-bottom: 1rem;
+}
+
+.circle-cards div {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.circle-cards div p {
+    width: 100%;
+}
+
+.newsletter-subscribe {
+    background-color: #c29c31;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    color: white;
+}
+
+.newsletter {
+    margin-top: 2rem;
+    margin-bottom: 10px;
+}
+
+.newsletter-subscribe button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 0 20px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 900;
+}
+
+footer {
+    text-align: center;
+    margin: 1rem 0;
+}
