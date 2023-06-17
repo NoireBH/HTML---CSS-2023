@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav .links a {
+    color: #072454;
+    font-size: 20px;
+}
+
+nav .links {
+    display: flex;
+    gap: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+header {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 600px;
+    color: #ffffff;
+    padding-bottom: 20rem;
+    padding-right: 30rem;
+    position: relative;
+    margin-bottom: 0rem;
+}
+
+.header-info {
+    margin-left: 23rem;
+    padding-top: 10rem;
+}
+
+.header-info h1 {
+    font-size: 60px;
+    line-height: 1;
+}
+
+.header-info h1:nth-child(1){
+    font-weight: 100;
+}
+
+.header-info h1:nth-child(2){
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.header-info button {
+    margin-top: 3rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    color: #ff3300;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.dog {
+    position: absolute;
+    bottom: 5rem;
+    right: 25rem;
+}
+
+.dog img {
+    width: 800px;
+}
+
+.main-header {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.main-header h1 {
+    color: #072454;
+}
+
+.main-header p {
+    color: #919193;
+    margin-bottom: 2rem;
+}
+
+.service-info {
+    display: flex;
+    justify-content: center;
+    gap: 20rem;
+    margin-bottom: 15rem;
+}
+
+.service-info > div {
+    border: 2px solid #ffc6c2;
+    padding: 3rem;
+    width: 300px;
+    text-align: center;
+}
+
+.image-container {
+    margin-bottom: 1rem;
+    text-align: center;
+    background-image: url(images/service-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px 150px;
+    padding: 2rem;
+}
+
+.service-text h3 {
+    margin-bottom: 1rem;
+}
+
+.we-care-cat {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-bottom: 2rem;
+}
+
+.we-care-cat article {
+    padding-top: 5rem;
+}
+
+.we-care-cat article h2 {
+    font-size: 40px;
+    color: #072454;
+    line-height: 3rem;
+}
+
+.we-care-cat article h2:nth-child(1) {
+    font-weight: 100;
+}
+
+.we-care-cat article h2:nth-child(2) {
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.we-care-cat p {
+    margin-bottom: 5px;
+}
+
+.we-care-cat button {
+    margin-top: 3rem;
+    padding: 16px 50px;
+    background: linear-gradient(90deg, rgba(240,68,48,1) 0%, rgba(239,78,35,1) 35%, rgba(238,90,7,1) 100%);
+    border: none;
+    border-radius: 80px;
+    color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.cat-container img {
+    width: 400px;
+}
+
+.why-go {
+    background-image: url(images/cats-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 10rem;
+    margin-bottom: 5rem;
+}
+
+.why-go .anipat-info {
+    width: 520px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+.why-go .anipat-info h1 {
+    font-size: 36px;
+    margin-bottom: 1rem;
+}
+
+.why-go .anipat-info button {
+    margin-top: 2rem;
+    padding: 16px 36px;
+    border: none;
+    border-radius: 80px;
+    color: #ff3300;
+    font-weight: bolder;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.number {
+    font-weight: 900;
+    
+}
+
+.anipat-info span {
+    margin-right: 10px;
+}
+
+footer p {
+    color: #7b7b7b;
+    margin-bottom: 1rem;
+}
+
+footer img {
+    margin-bottom: 2rem;
+}
+
+footer h2 {
+    margin-bottom: 2rem;
+} 
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-bottom: 5rem;
+}
+
