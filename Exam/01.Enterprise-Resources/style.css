@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+
+html {
+    background-color: #d9d9d9;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-container {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+img {
+    width: 400px;
+}
+
+p,h1 {
+    margin-bottom: 1rem;
+}
+
+.info h1 {
+    margin-bottom: 2rem;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 401px;
+    background-color: #d9d9d9;
+    height: 540px;
+    border: 1px solid lightgray
+}
+
+.info {
+    padding-left: 2rem;
+    padding-top: 1rem;
+    box-shadow: 1px 1px 3px gray;
+    font-size: 18px;
+}
+
+main div:nth-child(2) img {
+    height: 266.6px;
+}
+
+.card h2 {
+    color: #595b5e;
+    font-size: 16px;
+    margin-bottom: .5rem;
+}
+
+.card h1 {
+    font-weight: lighter;
+}
+
+.card p {
+    color: gray;
+}
+
+.person img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card:nth-child(2) .person img {
+    width: 50px;
+    height: 50px;
+}
+
+.person {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #000000;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.person .container {
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+.person .container p {
+    color: black;
+}
+
+.person  p {
+    margin-top: 1rem;
+}
+
+.image-container img {
+    display: block;
+}
